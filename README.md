@@ -1,2 +1,5 @@
-# SOLID
-Principios solid - diplomado Arquitectura de software
+# Integrantes
+Sebastian Cardozo Padilla
+Nestor Javier Mahecha Parra
+Karen Dayana Martinez perez
+
