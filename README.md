@@ -1,5 +1,5 @@
-# Integrantes
-Sebastian Cardozo Padilla
-Nestor Javier Mahecha Parra
-Karen Dayana Martinez perez
+# Members
+- Sebastian Cardozo Padilla
+- Nestor Javier Mahecha Parra
+- Karen Dayana Martinez perez
 
