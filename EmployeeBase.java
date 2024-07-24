@@ -1,14 +1,10 @@
 package com.example.demo.unsolid;
 
-public class Employee extends EmployeeBase{
+public abstract class EmployeeBase {
 
-    String name;
+
     String departament;
     Double salary;
-
-    public final String getName() {
-        return name;
-    }
 
     public final String getDepartament() {
         return departament;

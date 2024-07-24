@@ -2,7 +2,7 @@ package com.example.demo.unsolid;
 
 public interface EmployeeRepository implements IEmployeeRepository{
 
-    public Employee[] employees;
+    public EmployeeBase[] employees;
 
     public void addEmployee(String name) {
         // Agregar empleado
@@ -12,7 +12,7 @@ public interface EmployeeRepository implements IEmployeeRepository{
         // Eliminar empleado
     }
 
-    public Employee getEmployee(String name) {
+    public EmployeeBase getEmployee(String name) {
         // Obtener empleado
     }
 }

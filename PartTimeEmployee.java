@@ -1,5 +1,5 @@
 package com.example.demo.unsolid;
 
-public class PartTimeEmployee extends Employee {
+public class PartTimeEmployee extends EmployeeBase {
 
 }
