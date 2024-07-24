@@ -1,6 +1,13 @@
 package com.example.demo.unsolid;
 
-public class EmployeeManager implements EmployeeOperations {
+public class EmployeeManager implements IEmployeeOperations {
+
+    public IEmployeeRepository employees;
+
+    //constructor
+    public EmployeeManager(IEmployeeRepository employees) {
+		this.employees = employees;
+	}
 
     public void addEmployee(String name) {
         // Agregar empleado
@@ -8,14 +15,5 @@ public class EmployeeManager implements EmployeeOperations {
 
     public void removeEmployee(String name) {
         // Eliminar empleado
-    }
-
-    public double calculateSalary(String name) {
-        // Calcular salario
-        return 0.0;
-    }
-
-    public void saveToFile(String name) {
-        // Guardar en archivo
     }
 }

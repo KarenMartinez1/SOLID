@@ -4,12 +4,17 @@ public class Employee {
 
     String name;
     String departament;
+    Double salary;
 
-    public String getName() {
+    public final String getName() {
         return name;
     }
 
-    public String getDepartament() {
+    public final String getDepartament() {
         return departament;
+    }
+
+    public final String getSalary() {
+        return salary;
     }
 }

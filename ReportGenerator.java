@@ -1,12 +1,10 @@
 package com.example.demo.unsolid;
 
-public class ReportGenerator {
+public class ReportGenerator implements IReportGenerator{
+    public EmployeeManager employeeOperations;
+    public IReport reportModule;
 
-    public void generateReportExcel(EmployeeManager employeeManager) {
-        // Generar reporte
-    }
-
-    public void generateReportPDF(EmployeeManager employeeManager) {
+    public void generateReport() {
         // Generar reporte
     }
 }
