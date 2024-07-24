@@ -6,10 +6,11 @@
 # Analysis
 ![problem](./Task-Problem.png)
 
+- EmployeeManager viola SRP: porque adem谩s de manejar los empleados tambi茅n guarda el archivo y calculaba salarios.
+- ReportGenerator viola OCP: dado que para agregar una nueva extensi贸n habria que ir a la clase y crear un nuevo metodo.
+- PartTimeEmployee viola LSP: porque la clase lanza una excepci贸n al usar getName, afectando la correcci贸n del programa.
+- SalaryCalculator viola DIP: porque inyecta una dependencia de EmployeeManager (bajo nivel) en lugar de usar la abstracci贸n.
+
 # Solution
 ![solution](./Task-Solution.png)
 
-- EmployeeManager viola SRP: porque adem醩 de manejar los empleados tambi閚 guarda el archivo y calculaba salarios.
-- ReportGenerator viola OCP: dado que para agregar una nueva extensi髇 habria que ir a la clase y crear un nuevo metodo.
-- PartTimeEmployee viola LSP: porque la clase lanza una excepci髇 al usar getName, afectando la correcci髇 del programa.
-- SalaryCalculator viola DIP: porque inyecta una dependencia de EmployeeManager (bajo nivel) en lugar de usar la abstracci髇.
